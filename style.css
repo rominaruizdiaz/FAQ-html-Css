@@ -3,5 +3,17 @@
     margin: 0;
 }
 body {
-    margin: 20px;
+    background: linear-gradient(90deg, rgba(255,121,111,1) 10%, rgba(255,165,46,1) 60%, rgba(255,238,123,1) 100%);
+    margin: 70px 200px 70px 200px;
+}
+article {
+    background-color: rgb(240, 244, 255);
+}
+h1 {
+    font-size: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(19, 44, 85) 30%, rgb(38, 71, 131) 80%, rgb(73, 84, 165) 100%);
+    padding: 250px;
+    text-align: center;
 }

@@ -4,15 +4,295 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>frequently asked questions</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <article>
-        <section>
-
-        </section>
-    </article>
-    <aside>
-        
-    </aside>
+    <main>
+        <!--
+        <aside>
+            <div id="aside">
+                <h1>Índice</h1>
+                <button type="button">Desarrollo web Front-end</button>
+                <button type="button">CSS</button>
+                <button type="button">Desarrollo web Front-end</button>
+                <button type="button">JavaScript</button>
+            </div>
+        </aside> -->
+        <article>
+            <h1>FAQ</h1>
+            <div id="circle"></div>
+            <section>
+                <h2>Desarrollo web Front-end</h2>
+                <p>
+                    El desarrollo web front-end consiste en la conversión de datos en una interfaz gráfica para que el usuario pueda ver e interactuar con la información de forma digital usando HTML, CSS y JavaScript.
+                </p>
+                <hr>
+                <h3>Herramientas usadas en el desarrollo front-end</h3>
+                <p>
+                    Hay varias herramientas y plataformas (wordpress, magento, etc.) disponibles que pueden usarse para desarrollar el front-end de un sitio web, y saber qué herramientas son las que mejor se ajustan a tareas específicas marca la diferencia entre desarrollar un sitio comprometido de otro bien diseñado y escalable.
+                </p>
+                <h3>
+                    Hyper Text Markup Language (HTML)
+                </h3>
+                <p>
+                    HTML, siglas en inglés de Hyper Text Markup Language (lenguaje de marcas de hipertexto), es la columna vertebral de cualquier proceso de desarrollo web, sin el cual las páginas web no existirían. Hipertexto significa que el texto tiene enlaces, denominados hipervínculos, incrustados en el mismo. Cuando el usuario hace clic en una palabra o una frase que tiene un hipervínculo, se realiza una llamada a otra página web. El lenguaje de marcas indica que el texto puede convertirse en imágenes, tablas, enlaces, y otras representaciones. El código HTML es el que provee un marco general de cuál será el aspecto del sitio. HTML fue desarrollado por Tim Berners-Lee. La última versión de HTML se llama HTML5 y se publicó en 28 de octubre de 2014, por recomendación de W3C. Esta versión contiene nuevas y eficientes maneras de manejar elementos como archivos de vídeo y audio.
+                </p>
+                <h3>JavaScript</h3>
+                <p>
+                    JavaScript es un lenguaje de programación imperativa basado en eventos (a diferencia del modelo de programación declarativa de HTML) que se utiliza para transformar una página HTML estática en una interfaz dinámica. El código JavaScript puede utilizar Document Object Model (DOM), proporcionado por el estándar HTML, para manipular una página web en la respuesta a eventos, como las entradas de usuario.
+                </p>
+                <p>
+                    Utilizando una técnica llamada AJAX, el código JavaScript también puede recoger contenido activamente de la web (independientemente de la página HTML original recibida), y además reacciona ante eventos del lado del servidor, dotando de una naturaleza realmente dinámica a la experiencia de la página web.
+                </p>
+                <h3>WebAssembly</h3>
+                <p>
+                    WebAssembly, soportado por todos los navegadores más conocidos (p. ej. aquellos desarrollados por Google, Apple, Mozilla y Microsoft), es la única alternativa a JavaScript para poder ejecutar código en navegadores web (sin la ayuda de complementos, como Flash, Java o Silverlight; todos ellos depreciados, ya que los navegadores están dejando de dar soporte a los complementos). Con anterioridad a esta medida, existía asm.js (un módulo de JavaScript; permitiendo así que funcione en todos los navegadores), que se usaba como compilador para navegadores como Internet Explorer 11; y para aquellos navegadores que no soportaban WebAssembly directamente, se podía compilar en asm.js y darle soporte de esa manera. En general, los programadores no codifican en WebAssembly (o en asm.js) directamente, sino que utilizan lenguajes como Rust, C, C++, o en teoría cualquier lenguaje que pueda compilarlo.
+                </p>
+                <h3>Objetivos del desarrollo</h3>
+                <p>
+                    El desarrollador front-end tiene en mente los siguientes puntos, utilizando las herramientas y técnicas disponibles para alcanzar tales objetivos.
+                </p>
+                <h3>Accesibilidad</h3>
+                <p>
+                    Para el continuo desarrollo para dispositivos móviles, como los teléfonos inteligentes y tabletas, los diseñadores necesitan asegurar que sus sitios web se muestran correctamente en los navegadores de todos los dispositivos. Esto puede conseguirse creando un diseño web adaptable en las hojas de estilo CSS.
+                </p>
+                <h3>Rendimiento</h3>
+                <p>
+                    La mayor preocupación en cuanto a rendimiento es el tiempo de espera, manipulando HTML, CSS y JavaScript para asegurar que el sitio web se cargue rápidamente.
+                </p>
+                <div>
+                    <h3>Referencias</h3>
+                    <p>
+                        https://www.theguardian.com/help/insideguardian/2009/sep/28/blogpost
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2>Conceptos básicos de HTML</h2>
+                <p>
+                    El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el título, este artículo te dará una comprensión básica de HTML y cúal es su función.
+                </p>
+                <hr>
+                <h3>Entonces, ¿qué es HTML en realidad?</h3>
+                <p>
+                    HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc. Por ejemplo, toma la siguiente línea de contenido:
+                </p>
+                <div>
+                    <h4>HTML</h4>
+                    <p>
+                        Mi gato es muy gruñon
+                    </p>
+                </div>
+                <p>
+                    Si quieres especificar que se trata de un párrafo, podrías encerrar el texto con la etiqueta de párrafo (<p>):
+                </p>
+                <div>
+                    <h4>HTML</h4>
+                    <p>
+                        Mi gato es muy gruñon
+                    </p>
+                </div>
+                <h3>Anatomía de un elemento HTML</h3>
+                <p>
+                    Explora este párrafo en mayor profundidad.
+                </p>
+                <img alt="HTML concept" src="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-small.png">
+                <p>
+                    Las partes principales del elemento son:
+                </p>
+                <ol>
+                    <p>
+                        Las partes principales del elemento son:
+                    </p>
+                    <li>
+                        La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo—.
+                    </li>
+                    <li>
+                        La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
+                    </li>
+                    <li>
+                        El contenido: este es el contenido del elemento, que en este caso es sólo texto.
+                    </li>
+                    <li>
+                        El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
+                    </li>
+                </ol>
+                <p>
+                    Los elementos pueden también tener atributos, que se ven así:
+                </p>
+                <img alt="CSS concept" src="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-attribute-small.png">
+                <p>
+                    Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento. Aquí class es el nombre del atributo y editor-note el valor del atributo. En este caso, el atributo class permite darle al elemento un nombre identificativo, que se puede utilizar luego para apuntarle al elemento información de estilo y demás cosas.
+                </p>
+                <ol>
+                    <p>
+                        Un atributo debe tener siempre:
+                    </p>
+                    <li>
+                        Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).
+                    </li>
+                    <li>
+                        El nombre del atributo, seguido por un signo de igual (=).
+                    </li>
+                    <li>
+                        Comillas de apertura y de cierre, encerrando el valor del atributo.
+                    </li> 
+                </ol>
+                <p>
+                    Los atributos siempre se incluyen en la etiqueta de apertura de un elemento, nunca en la de cierre.
+                </p>
+                <div>
+                    <b>Nota:</b> el atributo con valores simples que no contengan espacios en blanco ASCII (o cualesquiera de los caracteres " ' ` = < >) pueden permanecer sin entrecomillar, pero se recomienda entrecomillar todos los valores de atributo, ya que esto hace que el código sea más consistente y comprensible.
+                </div>
+                <h3>Anidar elementos</h3>
+                <p>
+                    Puedes también colocar elementos dentro de otros elementos —esto se llama anidamiento—. Si, por ejemplo, quieres resaltar una palabra del texto (en el ejemplo la palabra «muy»), podemos encerrarla en un elemento <strong>, que significa que dicha palabra se debe enfatizar
+                </p>
+                <div>
+                    <h4>HTML</h4>
+                    <p>
+                        <p>Mi gato es <strong>muy</strong> gruñon.</p>
+                    </p>
+                </div>
+                <p>
+                    Debes asegurarte que los elementos estén correctamente anidados: en el ejemplo de abajo, creaste la etiqueta de apertura del elemento <p> primero, luego la del elemento <strong>, por lo tanto, debes cerrar esta etiqueta primero, y luego la de <p>. Esto es incorrecto:
+                </p>
+                <h3>Elementos vacíos</h3>
+                <p>
+                    Algunos elementos no poseen contenido, y son llamados elementos vacíos. Toma, por ejemplo, el elemento <img> de nuestro HTML:
+                </p>
+                <div>
+                <h4>HTML</h4>
+                    <p>
+                        <img src="images/firefox-icon.png" alt="Mi imagen de prueba" />
+                    </p>
+                </div>
+                <p>
+                    Posee dos atributos, pero no hay etiqueta de cierre </img> ni contenido encerrado. Esto es porque un elemento de imagen no encierra contenido al cual afectar. Su propósito es desplegar una imagen en la página HTML, en el lugar en que aparece.
+                </p>
+            </section>
+            <section>
+                <h2>CSS</h2>
+                <p>
+                    Las Hojas de estilo en cascada (del ingles Cascading Stylesheets CSS) es la siguiente tecnología que aprenderemos después de HTML. Mientras que HTML se utiliza para definir la estructura y la semántica del contenido, CSS se usa para darle estilo y posicionarlo visualmente. CSS se puede usar, por ejemplo, para cambiar la fuente, el color, el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos decorativos.
+                </p>
+                <h3>Itinerario de aprendizaje</h3>
+                <p>
+                    Antes de empezar con CSS deberemos conocer los fundamentos de HTML. Podemos trabajar este contenido en introducción a HTML para posteriormente aprender: 
+                </p>
+                <ul>
+                    <li>
+                        CSS, comenzando por el módulo de Introducción a CSS
+                    </li>
+                    <li>
+                        Módulos HTML más avanzados
+                    </li>
+                    <li>
+                        JavaScript, y cómo usarlo para añadir funcionalidad dinamica a las pagina web
+                    </li>
+                </ul>
+                <p>
+                    Se recomienda aprender HTML y CSS al mismo tiempo, trabajando de forma conjunta ambas disciplinas. CSS aporta un valor añadido a HTML y no podrás aprender CSS sin controlar HTML.
+                </p>
+                <p>
+                    Antes de comenzar con este tema, deberemos tener conocimientos básicos sobre el uso de ordenadores y sobre el uso pasivo de la Web (navegar y consumir contenido). Es recomendable tener configurado un entorno de desarrollo como el detallado en Instalación de software básico, y saber crear y gestionar archivos como se detalla en Manejando archivos — ambos forman parte del módulo Primeros pasos en la Web para principiantes.
+                </p>
+                <p>
+                    Se recomienda trabajar el módulo Primeros pasos en la Web antes de entrar a este tema, aunque no es completamente necesario; gran parte de lo tratado en el artículo de CSS básico también se trata en el módulo de introducción a CSS, aunque con mucho más detalle.
+                </p>
+                <h3>Módulos</h3>
+                <p>
+                    Este tema contiene los siguientes módulos en el orden recomendado de aprendizaje. Recomendamos comenzar por el primero.
+                </p>
+                <h5>Introducción a CSS</h5>
+                <p>
+                    Este módulo explica los conceptos básicos sobre el funcionamiento de CSS, incluyendo selectores y propiedades, escritura de reglas CSS, aplicación de CSS a HTML, cómo especificar longitud, color y otras unidades en CSS, organización en cascada y herencia, conceptos de encajonado básicos y depuración de CSS.
+                </p>
+                <h5>Estilos por cajas</h5>
+                <p>
+                    A continuación veremos la aplicación de estilos por cajas, fundamental en el diseño de páginas web. En este módulo analizaremos el modelo de cajas para después aprender a controlar el diseño de las cajas ajustando rellenos, marcos y márgenes, personalizando colores de fondo, imágenes y otras características, además de divertidas funcionalidades como el sombreado y los filtros sobre las cajas.
+                </p>
+                <h5>Estilo del texto</h5>
+                <p>
+                    Aquí veremos cómo aplicar estilos al texto, tipos de letra, negrita, cursiva, espaciado, interlineado y sombreado, entre otras funciones relativas al texto. Terminaremos el módulo aplicando tipos a nuestra página, configurando listas y enlaces.
+                </p>
+                <h5>Diseño CSS</h5>
+                <p>
+                    Llegados a este punto ya conocemos lo básico de CSS, como darle estilo al texto, y cómo dar estilo y manipular el contenido de las cajas. Es momento de ver cómo ubicar las cajas correctamente con respecto a la ventana de visualización y a otra. Hemos cubierto los requisitos necesarios para poder meternos de lleno en el diseño CSS, ver diferentes ajustes de visualización, metodos tradicionales de diseño con pivotes y posicionamiento, y nuevas herramientas de diseño como flexbox.
+                </p>
+                <h5>Diseño Adaptable (RBD Responsive Web Design)</h5>
+                <p>
+                    (RWD) es una habilidad imprescindible para el diseño web. En este módulo veremos principios básicos y herramientas de RWD, como aplicar diferentes CSS a un documento dependiendo de las características del dispositivo como el ancho de la pantalla, la orientación y la resolución; veremos las tecnologías disponibles para mostrar videos e imágenes dependiendo de estas características.
+                </p>
+                <h4>Resolución de problemas con CSS</h4>
+                <p>
+                    Uso de CSS para resolver problemas comunes proporciona vínculos a secciones que explican cómo usar CSS para resolver problemas comunes cuando se está creando una página web.
+                </p>
+            </section>
+            <section>
+                <h2>JavaScript</h2>
+                <p>
+                    JavaScript es un lenguaje de programación que te permite implementar cosas complejas en páginas web. Cada vez que una página web hace algo más que sentarse ahí y mostrar información estática para que la veas — mostrando actualizaciones de contenido oportunas, mapas interactivos, gráficos animados 2D/3D, desplazando máquinas reproductoras de video, o más, puedes apostar que probablemente JavaScript esté involucrado .
+                </p>
+                <h3>Prerrequisitos</h3>
+                <p>
+                    Se puede decir que JavaScript es más difícil de aprender que tecnologías relacionadas como HTML y CSS. Antes de intentar aprender JavaScript, se recomienda encarecidamente que te familiarices con al menos estas dos tecnologías primero, y quizás también con otras. Comienza trabajando con los siguientes módulos:
+                </p>
+                <ul>
+                    <li>
+                        Comenzando con la Web
+                    </li>
+                    <li>
+                        Introducción a HTML (en-US)
+                    </li>
+                    <li>
+                        Introducción a CSS
+                    </li>
+                </ul>
+                <p>
+                    Tener experiencia previa con otros lenguajes de programación también puede ayudar.
+                </p>
+                <p>
+                    Después de familiarizarte con los conceptos básicos de JavaScript, deberías estar en condiciones de aprender sobre temas más avanzados, por ejemplo:
+                </p>
+                <ul>
+                    <li>
+                        JavaScript en profundidad, como se enseña en nuestra guía de JavaScript
+                    </li>
+                    <li>
+                        APIs web
+                    </li>
+                </ul>
+                <h3>módulos</h3>
+                <p>
+                    Este tema contiene los siguientes módulos, en un orden sugerido para trabajar con ellos.
+                </p>
+                <h4>Primeros pasos en JavaScript</h4>
+                <p>
+                    En nuestro primer módulo de JavaScript, primero respondemos algunas preguntas fundamentales como "¿qué es JavaScript?", "¿Cómo se ve?" y "¿qué puede hacer?", antes de pasar a guiarte por tu primera experiencia práctica de escribir JavaScript. Después de eso, discutimos en detalle algunas características clave de JavaScript, tal como variables, cadenas, números y arreglos.
+                </p>
+                <h4>Bloques de construcción de JavaScript</h4>
+                <p>
+                    En este módulo, continuamos con nuestra cobertura de todas las características fundamentales clave de JavaScript, centrando nuestra atención en los tipos de bloques de código que se encuentran comúnmente, como declaraciones condicionales, bucles, funciones y eventos. Ya has visto estas cosas en el curso, pero solo de pasada; aquí lo discutiremos todas explícitamente.
+                </p>
+                <h4>Introducción a los objetos JavaScript</h4>
+                <p>
+                    En JavaScript, la mayoría de las cosas son objetos, desde las características principales de JavaScript como cadenas y arreglos hasta las APIs del navegador creadas sobre JavaScript. Incluso puedes crear tus propios objetos para encapsular funciones y variables relacionadas en paquetes eficientes. Es importante comprender la naturaleza orientada a objetos de JavaScript si deseas ir más allá con tu conocimiento del lenguaje y escribir código más eficiente, por lo tanto, te proporcionamos este módulo para ayudarte. Aquí enseñamos la teoría y la sintaxis de objetos en detalle, vemos cómo crear tus propios objetos y explicamos qué son los datos JSON y cómo trabajar con ellos.
+                </p>
+                <h4>JavaScript asíncrono</h4>
+                <p>
+                    En este módulo, echamos un vistazo a JavaScript asíncrono, por qué es importante y cómo se puede utilizar para manejar de forma eficaz posibles operaciones de bloqueo, como la obtención de recursos desde un servidor.
+                </p>
+                <h4>APIs web de lado del cliente</h4>
+                <p>
+                    Al escribir JavaScript de lado del cliente para sitios web o aplicaciones, no irás muy lejos antes de comenzar a usar las APIs — interfaces para manipular diferentes aspectos del navegador y el sistema operativo en el que se ejecuta el sitio, o incluso datos de otros sitios web o servicios. En este módulo, exploraremos qué son las APIs y cómo utilizar algunas de las APIs más populares que encontrarás a menudo en tu trabajo de desarrollo.
+                </p>
+                <h3>Resolver problemas comunes de JavaScript</h3>
+                <p>
+                    Usar JavaScript para resolver problemas comunes proporciona enlaces a secciones de contenido que explican cómo usar JavaScript para resolver problemas muy comunes al crear una página web.
+                </p>
+            </section>
+        </article>
+    </main>
 </body>
 </html>
