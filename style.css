@@ -1,91 +1,48 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.note__style {
-    background-color: rgb(183, 195, 224);
-    padding: 30px;
-}
-.border__radius_top {
-    border-radius: 30px 30px 0px 0px;
-}
-.border__radius_bottom {
-    border-radius: 0px 0px 30px 30px;
-}
-.code__table {
-    padding: 3px;
-    background-color: rgb(221, 221, 221);
-    text-align: center;
-}
-.code__table > h4 {
-    padding: 10px;
-    background-color: rgb(242, 242, 242);
-    text-align: left;
-    border-bottom: 1px solid rgb(121, 121, 121);: 5px black;
-}
-code {
-    font-size: 1.5em;
+main, header {
+    margin: 0px 100px 0px 500px;
+    padding: 150px;
 }
 body {
     background: linear-gradient(90deg, rgb(255,121,111) 10%, rgb(255,165,46) 60%, rgb(252, 186, 111) 100%);
-    margin: 70px 200px 70px 200px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-section {
-    background-color: rgb(247, 249, 255);
+main {
+    background-color: rgb(255, 248, 234);
+    border-radius: 20px;
 }
-h1 {
+header {
     font-size: 4em;
     color: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgb(19, 44, 85) 30%, rgb(38, 71, 131) 80%, rgb(73, 84, 165) 100%);
-    padding: 150px;
-    text-align: center;  
-}
-article {
-    margin: 80px;
-    width: 800px;
-}
-h2 {
-    font-size: 2em;
     text-align: center;
-    background-color: white;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 10px;
-}
-p {
-    text-align:justify;
-}
-p, h3 {
-    background-color: white;
-    padding: 10px;
-}
-h4 {
-    background-color: rgb(255, 255, 255);
-}
-img {
-    width: 750px;
-    padding: 25px;
-    background-color: white;
-}
-ol, ul, ol > p, ul > p{
-    padding: 10px;
-    background-color: white;
-}
-li {
-    margin-left: 100px;
+    margin-top: 100px;
 }
 aside {
-    padding: 60px;
-    width: 350px;
-    height: 400px;
-    background: linear-gradient(90deg, rgb(255,121,111) 10%, rgb(255,165,46) 60%, rgb(252, 186, 111) 100%);
-    position:fixed;
-    left: 1150px;
-    top: 400px;
-    bottom: 100px;
-    border-radius: 10px;
+    background-color: rgb(255, 243, 234);
+    position: fixed;
+    height: 100%;
+    width: 400px;
+    top: 0;
+}
+aside > h2 {
+    text-align: center;
+    margin: 200px 0px 50px 0px;
+    color: orange;
+
 }
 button {
-
+    text-align: center;
+    margin: 10px 50px 10px 50px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 30px;
+    font-size: 1em;
+    border: none;
+    background-color: rgba(255, 177, 141, 0.27);
+}
+button:hover {
+    background-color: rgb(255, 177, 141);
 }

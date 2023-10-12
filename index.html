@@ -7,21 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>FAQ</h1>
+    </header>
+    <aside>
+            <h2>ÍNDICE</h2>
+            <button type="button">DESARROLLO WEB FRONT-END</button>
+            <button type="button">CSS</button>
+            <button type="button">CONCEPTOS BÁSICOS DE HTML</button>
+            <button type="button">JAVASCRIPT</button>
+    </aside>
     <main>
-        <aside>
-            <div id="aside">
-                <h2>Índice</h2>
-                <button type="button">Desarrollo web Front-end</button>
-                <button type="button">CSS</button>
-                <button type="button">Conceptos básicos de HTML</button>
-                <button type="button">JavaScript</button>
-            </div>
-        </aside>
-        <section>
-            <h1>FAQ</h1>  
-            <article>
+        <article>
                 <h2>Desarrollo web Front-end</h2>
-                <p class="border__radius_top">
+                <p>
                     El desarrollo web front-end consiste en la conversión de datos en una interfaz gráfica para que el usuario pueda ver e interactuar con la información de forma digital usando HTML, CSS y JavaScript.
                 </p>
                 <hr>
@@ -60,14 +59,14 @@
                 </p>
                 <div>
                     <h3>Referencias</h3>
-                    <p class="border__radius_bottom">
+                    <p>
                         https://www.theguardian.com/help/insideguardian/2009/sep/28/blogpost
                     </p>
                 </div>
-            </article>
-            <article>
+        </article>
+        <article>
                 <h2>Conceptos básicos de HTML</h2>
-                <p class="border__radius_top">
+                <p>
                     El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el título, este artículo te dará una comprensión básica de HTML y cúal es su función.
                 </p>
                 <hr>
@@ -75,7 +74,7 @@
                 <p>
                     HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc. Por ejemplo, toma la siguiente línea de contenido:
                 </p>
-                <div class="code__table">
+                <div>
                     <h4>HTML</h4>
                     <code>
                         Mi gato es muy gruñon
@@ -84,7 +83,7 @@
                 <p>
                     Si quieres especificar que se trata de un párrafo, podrías encerrar el texto con la etiqueta de párrafo (&lt;p&gt;):
                 </p>
-                <div class="code__table">
+                <div>
                     <h4>HTML</h4>
                     <code>
                         &lt;p&gt;Mi gato es muy gruñon&lt;/p&gt;
@@ -135,14 +134,14 @@
                 <p>
                     Los atributos siempre se incluyen en la etiqueta de apertura de un elemento, nunca en la de cierre.
                 </p>
-                <div class="note__style">
+                <div>
                     <b>Nota:</b> el atributo con valores simples que no contengan espacios en blanco ASCII (o cualesquiera de los caracteres " ' ` = &lt; &gt;) pueden permanecer sin entrecomillar, pero se recomienda entrecomillar todos los valores de atributo, ya que esto hace que el código sea más consistente y comprensible.
                 </div>
                 <h3>Anidar elementos</h3>
                 <p>
                     Puedes también colocar elementos dentro de otros elementos —esto se llama anidamiento—. Si, por ejemplo, quieres resaltar una palabra del texto (en el ejemplo la palabra &lt;&lt;muy&gt;&gt;), podemos encerrarla en un elemento &lt;strong&gt;, que significa que dicha palabra se debe enfatizar
                 </p>
-                <div class="code__table">
+                <div>
                     <h4>HTML</h4>
                     <code>
                         &lt;p&gt;Mi gato es &lt;strong&gt;muy&lt;/strong&gt; gruñon&lt;/p&gt;
@@ -155,19 +154,19 @@
                 <p>
                     Algunos elementos no poseen contenido, y son llamados elementos vacíos. Toma, por ejemplo, el elemento &lt;img&gt; de nuestro HTML:
                 </p>
-                <div class="code__table">
+                <div>
                     <h4>HTML</h4>
                     <code>
                         &lt;p&gt;img src="images/firefox-icon.png" alt="Mi imagen de prueba"&lt;/p&gt;
                     </code>
                 </div>
-                <p class="border__radius_bottom">
+                <p>
                     Posee dos atributos, pero no hay etiqueta de cierre </img> ni contenido encerrado. Esto es porque un elemento de imagen no encierra contenido al cual afectar. Su propósito es desplegar una imagen en la página HTML, en el lugar en que aparece.
                 </p>
-            </article>
-            <article>
+        </article>
+        <article>
                 <h2>CSS</h2>
-                <p class="border__radius_top">
+                <p>
                     Las Hojas de estilo en cascada (del ingles Cascading Stylesheets CSS) es la siguiente tecnología que aprenderemos después de HTML. Mientras que HTML se utiliza para definir la estructura y la semántica del contenido, CSS se usa para darle estilo y posicionarlo visualmente. CSS se puede usar, por ejemplo, para cambiar la fuente, el color, el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos decorativos.
                 </p>
                 <h3>Itinerario de aprendizaje</h3>
@@ -219,13 +218,13 @@
                     (RWD) es una habilidad imprescindible para el diseño web. En este módulo veremos principios básicos y herramientas de RWD, como aplicar diferentes CSS a un documento dependiendo de las características del dispositivo como el ancho de la pantalla, la orientación y la resolución; veremos las tecnologías disponibles para mostrar videos e imágenes dependiendo de estas características.
                 </p>
                 <h4>Resolución de problemas con CSS</h4>
-                <p class="border__radius_bottom">
+                <p>
                     Uso de CSS para resolver problemas comunes proporciona vínculos a secciones que explican cómo usar CSS para resolver problemas comunes cuando se está creando una página web.
                 </p>
-            </article>
-            <article>
+        </article>
+        <article>
                 <h2>JavaScript</h2>
-                <p class="border__radius_top">
+                <p>
                     JavaScript es un lenguaje de programación que te permite implementar cosas complejas en páginas web. Cada vez que una página web hace algo más que sentarse ahí y mostrar información estática para que la veas — mostrando actualizaciones de contenido oportunas, mapas interactivos, gráficos animados 2D/3D, desplazando máquinas reproductoras de video, o más, puedes apostar que probablemente JavaScript esté involucrado .
                 </p>
                 <h3>Prerrequisitos</h3>
@@ -282,11 +281,10 @@
                     Al escribir JavaScript de lado del cliente para sitios web o aplicaciones, no irás muy lejos antes de comenzar a usar las APIs — interfaces para manipular diferentes aspectos del navegador y el sistema operativo en el que se ejecuta el sitio, o incluso datos de otros sitios web o servicios. En este módulo, exploraremos qué son las APIs y cómo utilizar algunas de las APIs más populares que encontrarás a menudo en tu trabajo de desarrollo.
                 </p>
                 <h3>Resolver problemas comunes de JavaScript</h3>
-                <p class="border__radius_bottom">
+                <p>
                     Usar JavaScript para resolver problemas comunes proporciona enlaces a secciones de contenido que explican cómo usar JavaScript para resolver problemas muy comunes al crear una página web.
                 </p>
-            </article>
-        </section>
+        </article>
     </main>
 </body>
 </html>
