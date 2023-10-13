@@ -3,6 +3,10 @@
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.note__style {
+    background-color: rgb(224, 190, 183);
+    padding: 30px;
+}
 main, header {
     margin: 0px 100px 0px 500px;
     padding: 150px;
@@ -45,4 +49,45 @@ button {
 }
 button:hover {
     background-color: rgb(255, 177, 141);
+}
+article{
+    background-color:white;
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(255, 165, 97);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+p {
+    text-align:justify;
+}
+p, h3, h4, h5 {
+    padding: 10px;
+}
+ol, ul, ol > p, ul > p{
+    padding: 10px;
+    background-color: white;
+}
+li {
+    margin-left: 100px;
+}
+.code__table {
+    padding: 3px;
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+}
+.code__table > h4 {
+    padding: 10px;
+    background-color: white;
+}
+img {
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
+html {
+    scroll-behavior: smooth;
 }
